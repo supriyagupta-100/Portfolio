@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h2>Supriya</h2>
+    <nav>
+        <a onclick="scrollToSection('About')">About</a>
+        <a onclick="scrollToSection('Projects')">Projects</a>
+        <a onclick="scrollToSection('Contact')">Contact</a>
+    </nav>
+    </header>
+
+    <section class="hero">
+    <div class="container">
+        <div>
+    <h1 id="typing"></h1>
+    <br>
+    <p>Frontend Developer| Javascript Learner</p>
+    <p>I build modern websites using HTML, CSS and Javascript, focusing on clean design and performance.</p>
+    <br>
+    <div class="socials">
+         <a href="https://github.com/supriyagupta-100" target="_blank" class="btn">Github</a>
+         <i class="fa-brands fa-github"></i>
+         <a href="https://www.linkedin.com/in/supriya-gupta-728781402" target="_blank" class="btn">LinkedIn</a>
+         <i class="fa-brands fa-square-linkedin"></i>
+    </div>
+    </div>
+    <br>
+    <button class="btn" onclick="scrollToSection('Projects')">View Work</button>
+<img src="/SVG.svg" width="300">
+    </div>
+    
+    </section>
+
+    <section id="About">
+    <h2>About Me</h2>
+    <p>I am learning web development and building interactive websites using Javascript.
+        I enjoy building interactive and responsive websites using HTML, CSS, and JavaScript.
+        I aim to create user-friendly designs and continuously improve my skills.
+    </p>
+    </section>
+
+    <section id="Projects">
+    <h2>Projects</h2>
+    <div class="Project-container">
+        <div class="Project-card">
+            <h3>Tic Tac Toe</h3>
+            <p>A classic interactive game built with HTML, CSS,and Logic in JavaScript.</p>
+            <a href="https://supriyagupta-100.github.io/Tic-Tac-Toe-Game/" class="btn-view">Play Game</a>
+        </div>
+        <div class="Project-card">
+            <h3>Rock Paper Scissor</h3>
+            <p>Challenge the computer in this sleek, responsive version of the famous game.</p>
+            <a href="https://supriyagupta-100.github.io/Rock-Paper-Scissors/" class="btn-view">Play Game</a>
+        </div>
+    </div>
+    </section>
+
+    <section id="Contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-container">
+        <p>I'm always open to discussing new projects or opportunities!</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong>supriyagupta18015@gmail.com</p>
+        </div>
+            <button class="btn" onclick="showAlert()">Say Hello</button>
+    </div>
+    </section>
+
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i> 2026 Supriya </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
